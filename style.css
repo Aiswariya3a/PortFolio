@@ -1,7 +1,18 @@
 /* fonts */
 
-/* <uniquifier>: Use a unique and descriptive class name
-   <weight>: Use a value from 400 to 700 */
+.dancing-script-regular {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script-bold {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .roboto-regular {
   font-family: "Roboto", serif;
@@ -21,8 +32,39 @@
   font-style: normal;
 }
 
+/* header */
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* body */
 
 body {
   background-color: #fffcfc;
+}
+
+
+#hero-section {
+  height: 100vh;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+#hero-section h1 {
+  font-size: 3rem;
+}
+
+#hero-section h2 {
+  font-size: 2rem;
+}
+
+#hero-section button {
+  color: #6A8EAE;
 }
